@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Nike</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+   </head>
+   <body>
+      <!-- header section start -->
+      <div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="logo"><a href="index.html"><img src="images/nike30.png"></a></div>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#LM">Logo meaning</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#LC">Logo color</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#OP">Products</a>
+                     </li>
+                     <!--<li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>-->
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- header section end -->
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+         <div class="container">
+           <div id="costum_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <h1 class="furniture_text">RUN THE DAY.</h1>
+                     <p class="there_text">Don't let it run you.</p>
+                     <div class="contact_bt_main">
+                        <div class="contact_bt"><a href="https://www.nike.com/" target="_blank">Nike.com</a></div>
+                     </div>
+                  </div>
+               </div>
+               <!--<a class="carousel-control-prev" href="#costum_slider" role="button" data-slide="prev">
+               <i class=""><img src="images/left-arrow.png"></i>
+               </a>-->
+               <!--<a class="carousel-control-next" href="#costum_slider" role="button" data-slide="next">
+               <i class=""><img src="images/right-arrow.png"></i>
+               </a>-->
+            </div>
+         </div>
+      </div>
+      <!-- banner section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1 class="about_text" id="LM">Nike logo meaning</h1>
+                  <p class="lorem_text">Nike co-founder Phil Knight was
+                     adamant that his company's new logo be
+                     a simple design that is fluid and conveys
+                     motion and speed. The logo is also said
+                     to symbolize the wing of the Greek
+                     goddess of victory, Nike.</p>
+                  <!--<div class="read_bt1"><a href="#">Read More</a></div>-->
+               </div>
+               <div class="col-md-6">
+                  <div class="image_1">
+                     <canvas id="myCanvas" width="380" height="285" style="background: #1a1a1a"></canvas>
+                     <script>
+                     var canvas = document.getElementById('myCanvas');
+                     var context = canvas.getContext('2d');
+                     context.scale(1.5,1.5,1.5,1.5,1.5,1.5);
+
+                     context.beginPath();
+                     context.moveTo(71, 90);
+                     context.bezierCurveTo( 20, 142, 58, 159, 97, 143);
+                     context.lineWidth = 2;
+
+                     // line color
+                     context.strokeStyle = 'white';
+                     context.stroke();
+                     //context.fillStyle='black';
+                     //context.fill();
+                     </script>
+                     <script>
+                     var canvas = document.getElementById('myCanvas');
+                     var context = canvas.getContext('2d');
+
+                     context.beginPath();
+                     context.moveTo(97, 143);
+                     context.bezierCurveTo( 109, 139, 88, 148, 231, 92);
+                     context.lineWidth = 2;
+
+                     // line color
+                     context.strokeStyle = 'white';
+                     context.stroke();
+                     //context.fillStyle='black';
+                     //context.fill();
+                     </script>
+                     <script>
+                     var canvas = document.getElementById('myCanvas');
+                     var context = canvas.getContext('2d');
+
+                     context.beginPath();
+                     context.moveTo(69, 92);
+                     context.bezierCurveTo(54, 136, 72, 132, 230, 91);
+                     context.lineWidth = 2;
+
+                     // line color
+                     context.strokeStyle = 'white';
+                     context.stroke();
+                     //context.fillStyle='white';
+                     //context.fill();
+                     </script>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="image_3">
+                     <img src="images/runners.png" alt="Avatar" class="image" style="width:100%">
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <!--<h1 class="about_text">Nike logo meaning</h1>-->
+                  <p class="lorem_text2">" SWOOSH. The sound made when you blow by somebody. "</p>
+                  <!--<div class="read_bt1"><a href="#">Read More</a></div>-->
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      <div class="vmesni1">
+      </div>
+      <!-- furnitures section start -->
+      <div class="furnitures_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <script>
+                     function myFunction() {
+                        color = document.getElementById("color").value;
+                        //alert(color);
+                        document.getElementById("Path1").setAttribute("fill", color)
+                     }
+                     function myFunction2() {
+                        color2 = document.getElementById("color2").value;
+                        //alert(color);
+                        document.getElementById("Path2").setAttribute("fill", color2)
+                     }
+                  </script>
+                  <h1 class="about_text" id="LC">You can change the color of nike logo</h1>
+                  <div class="choose1">
+                     <input type="color" name="color" id="color" value="#000000" class="color_choose">
+                     <!--<button onclick="myFunction()" class="button_choose">Choose</button>-->
+                  </div>
+                  <div class="choose2">
+                     <input type="submit" value="Choose" id="choose" onclick="myFunction()" class="button_choose"/>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="image_2">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="400px" height="300px" viewBox="0 0 840 859">
+                        <path id="Path1" fill="" stroke="black" stroke-width="1" d="M 130.18,302.18
+                           C 130.18,302.18 144.00,288.67 144.00,288.67
+                            144.00,288.67 134.67,308.67 134.67,308.67
+                            134.67,308.67 127.64,324.73 127.64,324.73
+                            127.64,324.73 122.18,340.00 122.18,340.00
+                            122.18,340.00 118.67,354.00 118.67,354.00
+                            118.67,354.00 115.64,367.27 115.64,367.27
+                            115.64,367.27 114.73,383.82 114.73,383.82
+                            114.73,383.82 116.00,398.00 116.00,398.00
+                            116.00,398.00 120.00,408.67 120.00,408.67
+                            120.00,408.67 126.67,421.33 126.67,421.33
+                            126.67,421.33 134.67,430.67 134.67,430.67
+                            134.67,430.67 144.73,438.91 144.73,438.91
+                            144.73,438.91 154.67,444.00 154.67,444.00
+                            154.67,444.00 164.18,448.18 166.18,448.18
+                            167.82,448.91 180.91,451.09 180.91,451.09
+                            180.91,451.09 192.00,452.18 194.00,452.18
+                            196.00,452.18 210.00,452.00 210.00,452.00
+                            210.00,452.00 224.00,450.00 224.00,450.00
+                            224.00,450.00 237.33,447.33 237.33,447.33
+                            237.33,447.33 251.33,444.00 251.33,444.00
+                            251.33,444.00 264.00,440.67 264.00,440.67
+                            264.00,440.67 276.18,437.27 276.18,437.27
+                            276.18,437.27 291.33,433.33 291.33,433.33
+                            291.33,433.33 304.67,430.00 304.67,430.00
+                            304.67,430.00 316.73,426.36 316.73,426.36
+                            316.73,426.36 327.64,423.45 327.64,423.45
+                            327.64,423.45 343.33,419.33 343.33,419.33
+                            343.33,419.33 360.00,414.67 360.00,414.67
+                            360.00,414.67 382.00,408.67 382.00,408.67
+                            382.00,408.67 402.36,403.27 402.36,403.27
+                            402.36,403.27 424.00,397.09 424.00,397.09
+                            424.00,397.09 445.27,391.27 445.27,391.27
+                            445.27,391.27 467.64,385.45 467.64,385.45
+                            467.64,385.45 485.64,380.55 485.64,380.55
+                            485.64,380.55 504.91,375.09 504.91,375.09
+                            504.91,375.09 527.27,369.27 527.27,369.27
+                            527.27,369.27 549.45,362.91 549.45,362.91
+                            549.45,362.91 566.91,358.36 566.91,358.36
+                            566.91,358.36 585.64,353.45 585.64,353.45
+                            585.64,353.45 600.74,348.94 600.91,348.91
+                            600.91,348.91 619.09,343.64 619.09,343.64
+                            619.09,343.64 635.93,339.08 635.82,338.91
+                            635.82,338.91 652.36,334.55 652.36,334.55
+                            652.36,334.55 669.82,330.00 669.82,330.00
+                            669.82,330.00 688.18,324.91 688.18,324.91
+                            688.18,324.91 706.36,319.82 706.36,319.82
+                            706.36,319.82 722.00,315.33 722.00,315.33
+                            722.00,315.33 738.00,311.33 738.00,311.33
+                            738.00,311.33 750.67,307.33 751.33,307.33
+                            752.00,307.33 764.91,304.00 764.91,304.00
+                            764.91,304.00 779.45,299.64 779.45,299.64
+                            779.45,299.64 808.67,291.33 808.67,291.33
+                            808.67,291.33 789.09,300.73 789.09,300.73
+                            789.09,300.73 774.55,306.73 774.55,306.73
+                            774.55,306.73 759.09,313.45 759.09,313.45
+                            759.09,313.45 745.82,319.27 745.82,319.27
+                            745.82,319.27 732.67,324.67 732.67,324.67
+                            732.67,324.67 720.00,330.00 720.00,330.00
+                            720.00,330.00 708.36,335.45 708.36,335.45
+                            708.36,335.45 696.00,340.50 696.00,340.50
+                            696.00,340.50 681.50,347.00 681.50,347.00
+                            681.50,347.00 669.00,352.50 669.00,352.50
+                            669.00,352.50 657.27,357.64 657.27,357.64
+                            657.27,357.64 644.18,363.82 644.18,363.82
+                            644.18,363.82 630.00,370.00 630.00,370.00
+                            630.00,370.00 614.18,376.91 614.18,376.91
+                            614.18,376.91 594.73,385.45 594.73,385.45
+                            594.73,385.45 574.55,394.36 574.55,394.36
+                            574.55,394.36 558.73,401.45 558.73,401.45
+                            558.73,401.45 542.55,408.91 542.55,408.91
+                            542.55,408.91 521.50,418.00 521.50,418.00
+                            521.50,418.00 503.09,426.18 503.09,426.18
+                            503.09,426.18 484.50,434.50 484.50,434.50
+                            484.50,434.50 469.50,441.00 469.50,441.00
+                            469.50,441.00 452.91,448.18 452.91,448.18
+                            452.91,448.18 436.50,455.50 436.50,455.50
+                            436.50,455.50 420.36,462.73 420.36,462.73
+                            420.36,462.73 403.82,469.82 403.82,469.82
+                            403.82,469.82 387.27,477.45 387.27,477.45
+                            387.27,477.45 372.00,484.18 372.00,484.18
+                            372.00,484.18 354.36,491.82 354.36,491.82
+                            354.36,491.82 339.45,498.91 339.45,498.91
+                            339.45,498.91 323.27,506.00 323.27,506.00
+                            323.27,506.00 305.64,513.64 305.64,513.64
+                            305.64,513.64 287.64,521.64 287.64,521.64
+                            287.64,521.64 274.00,527.45 274.00,527.45
+                            274.00,527.45 261.09,533.45 261.09,533.45
+                            261.09,533.45 251.64,537.82 251.64,537.82
+                            251.64,537.82 242.18,542.00 242.18,542.00
+                            242.18,542.00 232.00,546.00 232.00,546.00
+                            232.00,546.00 223.00,549.00 223.00,549.00
+                            223.00,549.00 212.00,553.00 212.00,553.00
+                            212.00,553.00 200.00,557.00 200.00,557.00
+                            200.00,557.00 188.91,560.36 188.91,560.36
+                            188.91,560.36 177.64,563.45 177.64,563.45
+                            177.64,563.45 166.18,566.00 166.18,566.00
+                            166.18,566.00 152.55,568.00 152.55,568.00
+                            152.55,568.00 138.36,569.45 138.36,569.45
+                            138.36,569.45 124.55,570.18 124.55,570.18
+                            124.55,570.18 111.09,569.45 111.09,569.45
+                            111.09,569.45 101.50,568.00 101.50,568.00
+                            101.50,568.00 91.50,566.00 91.50,566.00
+                            91.50,566.00 80.50,562.00 80.50,562.00
+                            80.50,562.00 71.00,558.00 71.00,558.00
+                            71.00,558.00 60.50,551.50 60.50,551.50
+                            60.50,551.50 50.00,541.50 50.00,541.50
+                            50.00,541.50 44.00,535.00 44.00,535.00
+                            44.00,535.00 39.00,526.50 39.00,526.50
+                            39.00,526.50 34.50,516.50 34.50,516.50
+                            34.50,516.50 31.45,506.00 31.45,506.00
+                            31.45,506.00 30.00,495.09 30.00,495.09
+                            30.00,495.09 29.45,483.82 29.45,483.82
+                            29.45,483.82 30.00,473.00 30.00,473.00
+                            30.00,473.00 31.50,463.00 31.50,463.00
+                            31.50,463.00 34.00,452.00 34.00,452.00
+                            34.00,452.00 38.50,441.00 38.50,441.00
+                            38.50,441.00 42.00,431.00 42.00,431.00
+                            42.00,431.00 46.00,422.50 46.00,422.50
+                            46.00,422.50 50.00,414.00 50.00,414.00
+                            50.00,414.00 54.00,406.00 54.00,406.00
+                            54.00,406.00 59.45,396.00 59.45,396.00
+                            59.45,396.00 65.00,386.50 65.00,386.50
+                            65.00,386.50 71.14,376.73 71.64,376.73
+                            72.14,376.73 79.27,365.82 79.27,365.82
+                            79.27,365.82 85.45,357.09 85.45,357.09
+                            85.45,357.09 92.00,347.50 92.00,347.50
+                            92.00,347.50 97.50,340.00 97.50,340.00
+                            97.50,340.00 104.00,332.00 104.00,332.00
+                            104.00,332.00 109.50,325.50 109.50,325.50
+                            109.50,325.50 116.18,317.64 116.18,317.64
+                            116.18,317.64 123.82,309.27 123.82,309.27
+                            123.82,309.27 129.50,302.50 129.50,302.50" />
+                     </svg>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="image_4">
+                     <img src="images/runners2.jpg" alt="Avatar" class="image" style="width:100%">
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <p class="lorem_text2">" The only one who can tell you 'you can't' is you. And you don't have to listen. "</p>
+               </div>
+            </div>
+
+            <!--<h1 class="our_text">YOU CAN CHANGE THE COLOR OF NIKE LOGO</h1>
+            <p class="ipsum_text">There are many variations of passages of Lorem Ipsum </p>
+            <div class="furnitures_section2 layout_padding">-->
+               <!--<div class="row">-->
+                  <!--<div class="col-md-6">-->
+                     <!--<div class="container_main">
+                        <img src="images/img-2.png" alt="Avatar" class="image">
+                        <div class="overlay">
+                           <a href="#" class="icon" title="User Profile">
+                           <i class="fa fa-search"></i>
+                           </a>
+                        </div>
+                     </div>-->
+                     <!--<h3 class="temper_text">Tempor incididunt ut labore et dolore</h3>
+                     <p class="dololr_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+                  </div>-->
+                  <!--<div class="col-md-6">
+                     <div class="container_main">
+                        <img src="images/img-3.png" alt="Avatar" class="image">
+                        <div class="overlay">
+                           <a href="#" class="icon" title="User Profile">
+                           <i class="fa fa-search"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <h3 class="temper_text">Tempor incididunt ut labore et dolore</h3>
+                     <p class="dololr_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
+                  </div>-->
+               <!--</div>-->
+            <!--</div>>-->
+         </div>
+      </div>
+      <!-- furnitures section end -->
+      <div class="vmesni2">
+      </div>
+      <!-- who section start -->
+      <!--<div class="who_section layout_padding">  ZAENKRAT SAM ZAKOMENTIRANO; POLE ZBIRISI_!
+         <div class="container">
+            <h1 class="who_taital">who we are ?</h1>
+            <h4 class="designer_text">DESIGNERS & INNOVATORS</h4>
+            <p class="lorem_ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+         </div>
+         <div class="get_bt_main">
+            <div class="get_bt"><a href="#">Get A Quote</a></div>
+         </div>
+      </div>-->
+      <!-- who section end -->
+      <!-- projects section start -->
+      <div class="projects_section layout_padding">
+         <div class="container">
+            <h1 class="our_text" id="OP">Our products</h1>
+            <p class="ipsum_text">Make yourself unstoppable.</p>
+            <!--<div id="main_slider" class="carousel slide" data-ride="carousel">-->
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="projects_section2">
+                        <div class="container_main2">
+                           <div class="row">
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/shoes2-tran.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Shoes</h1>
+                                    <div class="middle">
+                                       <div class="text"><a href="https://www.nike.com/si/w?q=shoes&vst=shoes" target="_blank">VIEW MORE</a></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/hoodie2-tran.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Clothes</h1>
+                                    <div class="middle">
+                                       <div class="text"><a href="https://www.nike.com/si/w?q=clothes&vst=clothes" target="_blank">VIEW MORE</a></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/bag.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Bags</h1>
+                                    <div class="middle">
+                                       <div class="text"><a href="https://www.nike.com/si/w?q=bags&vst=bags" target="_blank">VIEW MORE</a></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--<div class="carousel-item">
+                     <div class="projects_section2">
+                        <div class="container_main1">
+                           <div class="row">
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/img-4.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Modern home designe</h1>
+                                    <div class="middle">
+                                       <div class="text">VIEW MORE</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/img-5.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Modern home designe</h1>
+                                    <div class="middle">
+                                       <div class="text">VIEW MORE</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/img-6.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Modern home designe</h1>
+                                    <div class="middle">
+                                       <div class="text">VIEW MORE</div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>-->
+                  <!--<div class="carousel-item">
+                     <div class="projects_section2">
+                        <div class="container_main1">
+                           <div class="row">
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/img-4.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Modern home designe</h1>
+                                    <div class="middle">
+                                       <div class="text">VIEW MORE</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/img-5.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Modern home designe</h1>
+                                    <div class="middle">
+                                       <div class="text">VIEW MORE</div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="container_main1">
+                                    <img src="images/img-6.png" alt="Avatar" class="image" style="width:100%">
+                                    <h1 class="modern_text">Modern home designe</h1>
+                                    <div class="middle">
+                                       <div class="text">VIEW MORE</div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>-->
+               </div>
+               <!--<a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a>-->
+            <!--</div>-->
+         </div>
+      </div>
+      <!-- projects section end -->
+      <!-- client section start -->
+      <!--<div class="clients_section layout_padding">
+         <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <h1 class="client_text">what is says our clients</h1>
+                     <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                     <div class="clients_section2 layout_padding">
+                        <div class="client_1">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-7.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="client_2">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-8.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <h1 class="client_text">what is says our clients</h1>
+                     <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                     <div class="clients_section2 layout_padding">
+                        <div class="client_1">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-7.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="client_2">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-8.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <h1 class="client_text">what is says our clients</h1>
+                     <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                     <div class="clients_section2 layout_padding">
+                        <div class="client_1">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-7.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="client_2">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-8.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <h1 class="client_text">what is says our clients</h1>
+                     <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                     <div class="clients_section2 layout_padding">
+                        <div class="client_1">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-7.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="client_2">
+                           <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="image_7"><img src="images/img-8.png"></div>
+                                 <div class="quote_icon"><img src="images/quote-icon.png"></div>
+                              </div>
+                              <div class="col-sm-9">
+                                 <h1 class="loksans_text">loksans</h1>
+                                 <p class="dolor_ipsum_text">ipsum dolor sit amet, consectetur adipiscing elit, sed  veniam, quis nostrud exercitation ullamco laboris nisi ut reprehenderit in voluptate velit</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>-->
+      <!-- client section end -->
+      <!-- contact section start -->
+      <!--<div class="contact_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1 class="contact_text">CONTACT US</h1>
+                  <div class="mail_sectin">
+                     <input type="text" class="email-bt" placeholder="Name" name="Name">
+                     <input type="text" class="email-bt" placeholder="Email" name="Name">
+                     <input type="text" class="email-bt" placeholder="Phone Number" name="Name">
+                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                     <div class="send_bt"><a href="#">SEND</a></div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="image_9"><img src="images/img-9.png"></div>
+               </div>
+            </div>
+         </div>
+      </div>-->
+      <!-- contact section end -->
+      <!-- footer section start -->
+      <!--<div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-sm-6">
+                  <div class="fooer_logo"><img src="images/footer-logo.png"></div>
+                  <p class="footer_lorem_text">There are many variat
+                     ions of passages of L
+                     orem Ipsum available
+                     , but the majority h
+                     ave suffered altera
+                     tion in some form, by 
+                  </p>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="customer_text">LET US HELP YOU</h1>
+                  <p class="footer_lorem_text">There are many variat
+                     ions of passages of L
+                     orem Ipsum available
+                     , but the majority h
+                     ave suffered altera
+                     tion in some form, by 
+                  </p>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="customer_text">INFORMATION</h1>
+                  <p class="footer_lorem_text1">About Us<br>
+                     Careers<br>
+                     Sell on shopee<br>
+                     Press & News<br>
+                     Competitions<br>
+                     Terms & Conditions
+                  </p>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                  <h1 class="customer_text">OUR Design</h1>
+                  <p class="footer_lorem_text">There are many variat
+                     ions of passages of L
+                     orem Ipsum available
+                     , but the majority h
+                     ave suffered altera
+                     tion in some form, by 
+                  </p>
+               </div>
+            </div>
+            <div class="input-group mb-3">
+               <input type="text" class="form-control" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="basic-addon2">
+               <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2"><a href="#">Subscribe</a></span>
+               </div>
+            </div>
+         </div>
+      </div>-->
+      <!--  footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <div class="social_icon">
+               <ul>
+                  <li><a href="https://www.facebook.com/nike/" target="_blank"><img src="images/fb-icon2.png"></a></li>
+                  <li><a href="https://twitter.com/nike" target="_blank"><img src="images/twitter-icon2.png"></a></li>
+                  <li><a href="https://www.instagram.com/nike/" target="_blank"><img src="images/instagram-icon2.png"></a></li>
+                  <li><a href="https://www.linkedin.com/company/nike" target="_blank"><img src="images/linkedin-icon2.png"></a></li>
+               </ul>
+            </div>
+            <p class="copyright_text">2022 All Rights Reserved. Design by <a href="#">Sanja Dumenčić</a></p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
+   </body>
+</html>

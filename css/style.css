@@ -217,6 +217,10 @@ button {
      padding-top: 90px;
      padding-bottom: 0px;
 }
+.layout_padding2{
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
 
 .padding_0{
      padding: 0px;
@@ -275,12 +279,20 @@ button {
     background-repeat: no-repeat;
     /*margin-bottom: 5px;*/
 }
-/*.vmesni1{
-    height: 3px;
+.vmesni1{
+    height: 80px;
     width: 100%;
     float: left;
     background-color: #000;
+}
+/*.noise {
+    float: left;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to top, #404040, rgba(73, 73, 73, 0.5)), url(../images/noise.svg);
+    filter: contrast(500%) brightness(50%);
 }*/
+
 .vmesni2{
     height: 5px;
     width: 100%;
@@ -441,7 +453,7 @@ button {
 .about_section{
     width: 100%;
     float: left;
-    background-color: #1a1a1a;
+    background-image: linear-gradient(#1a1a1a, #404040);
     height: auto;
     padding-bottom: 90px;
     /*margin-bottom: 5px;*/
@@ -544,8 +556,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 90px;
-    background-color: #404040;
-    /*margin-bottom: 5px;*/
+    background-image: linear-gradient(#1a1a1a, #404040);
 }
 .our_text{
     width: 100%;
@@ -703,7 +714,7 @@ a:hover {
     width: 100%;
     float: left;
     /*background-color: #1a1a1a;*/
-    background-image: linear-gradient(#1a1a1a, #404040);
+    background-image: linear-gradient( #404040,#1a1a1a);
     /*margin-bottom: 5px;*/
 }
 .projects_section2{
@@ -1055,7 +1066,7 @@ textarea#comment::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #1a1a1a;
+    background-image: linear-gradient( #404040,#1a1a1a);
     height: auto;
 }
 

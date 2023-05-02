@@ -1,2 +1,2 @@
 # Nike
-sanjadu.github.io/Nike
+https://sanjadu.github.io/Nike/
